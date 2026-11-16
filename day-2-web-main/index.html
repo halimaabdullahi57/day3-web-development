@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+
+    <style>
+        h1 {
+            color: blue;
+        }
+        section {
+            min-height: 100vh;
+            padding :20px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border: radius 50px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#contact">contact</a>
+    <section id="home">
+    <h1 id="title">Hello!</h1>
+
+    <p>This is my first webpage.</p>
+
+    <button onclick="document.getElementById('title').innerHTML='Welcome!'">
+        Click Me
+    </button>
+    </section>
+
+    <section id="about">
+        <h2>about me</h2>
+        <p>my name is Nasra and im learning web development</p>
+        <img src="profile.jpg" alt="Profile Image">
+    </section>
+
+    <section id="contact">
+        <h3>contact me</h3>
+        <p>you can reach me at #0768834005</p>
+        </section>
+
+</body>
+</html>  
